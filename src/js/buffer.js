@@ -4,7 +4,7 @@ export default class ArrayBufferConverter {
   }
 
   load(buffer) {
-    this.buffer = new Uint8Array(buffer);
+    this.buffer = new Uint16Array(buffer);
   }
 
   toString() {
